@@ -11,7 +11,7 @@
     padding-left: 10px;
 }
 .navbarall{
-    background-color: rgb(116, 113, 113);
+    background-color: #a0a0a0;
 }
 /* .nav-link{
     color:rgb(105, 30, 174) !important;
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-dark .navbar-brand:hover {
-    color: #e47d15; /* Hover durumu kırmızı */
+    color: #2e0849; /* Hover durumu kırmızı */
 }
 
 .nav-item{
@@ -52,16 +52,57 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
+    background: #a0a0a0;
+    
 }
 .box-model-example{
     border:3px solid orange;
     padding: 20px;
     margin: 10px;
-   
+   background:  #a0a0a0;
 }
 .inner-box{
     padding: 10px;
     margin: 5px;
     background-color: lightblue;
-    border: 2px solid orange;
+    border: 2px solid rgb(38, 35, 28);
+    
+    
+    
 }
+.grid-item {
+    margin: 10px; 
+    padding: 10px; 
+    box-sizing: border-box; /* Padding ile genişlik hesaplamasını doğru yapar */
+    background-color:  #a0a0a0; /* Arka plan rengi (isteğe bağlı) */
+    border: 2px solid orange; /* İnce bir çerçeve (isteğe bağlı) */
+    display: flex;
+    gap: 10px; 
+   
+  }
+.card img {
+    max-width: 100%;
+    max-height: 200px; /* Yüksekliği sınırlayarak orantıyı korur */
+    width: auto;
+    height: auto;}
+
+.card{
+    width: 250px;
+    height: 100px;
+    flex: 1; /* Kartlar eşit genişlikte olur */
+     /* Kart genişliği */
+}
+.inner-box .container {
+    padding: 0; /* Kenar boşluklarını sıfırla */
+    margin: 0; /* Varsayılan margin'i sıfırla */
+  }
+  .btn{
+    background-color:rgb(105, 30, 174)  ;
+  }
+
+  body{
+    background: #a0a0a0;
+  }
+
+  
+ 
