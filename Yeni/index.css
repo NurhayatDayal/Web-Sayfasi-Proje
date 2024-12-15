@@ -1,0 +1,47 @@
+
+.container-fluid{
+    margin-left: 20px;
+    
+}
+.navbar2{
+    margin-right: 20px;
+   
+}
+.nav-item{
+    padding-left: 10px;
+}
+.navbarall{
+    background-color: rgb(116, 113, 113);
+}
+/* .nav-link{
+    color:rgb(105, 30, 174) !important;
+    
+    
+} */
+.navbar-brand{
+    color:rgb(105, 30, 174) ; 
+}
+body {
+    font-family: 'Times New Roman', Times, serif; /* Tüm sayfa için */
+}
+.navbar-dark .navbar-brand {
+    color:rgb(105, 30, 174)  /* Varsayılan renk yeşil */
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #e47d15; /* Hover durumu kırmızı */
+}
+
+.nav-item{
+    border: 5px;
+    color:rgb(105, 30, 174) ;
+}
+.ilk{
+    background-color: aqua;
+}
+.hikaye{
+    border-radius: 2px;
+}
+.hikaye2{
+    border-radius: 2px;
+}
