@@ -98,10 +98,16 @@ body {
   }
   .btn{
     background-color:rgb(105, 30, 174)  ;
+    color:black;
   }
 
   body{
     background: #a0a0a0;
+  }
+  .btn:hover {
+    background-color:#2e0849;  /* Arka plan rengini belirle */
+    color: #ffffff;          /* Yazı rengini belirle */
+    transition: background-color 0.3s, color 0.3s; /* Geçiş animasyonu */
   }
 
   
