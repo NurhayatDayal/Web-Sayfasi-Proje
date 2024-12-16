@@ -75,7 +75,7 @@ body {
     padding: 10px; 
     box-sizing: border-box; /* Padding ile genişlik hesaplamasını doğru yapar */
     background-color:  #a0a0a0; /* Arka plan rengi (isteğe bağlı) */
-    border: 2px solid rgb(105, 30, 174); /* İnce bir çerçeve (isteğe bağlı) */
+    border: 3px solid rgb(105, 30, 174); /* İnce bir çerçeve (isteğe bağlı) */
     display: flex;
     gap: 10px; 
    
