@@ -56,7 +56,7 @@ body {
     
 }
 .box-model-example{
-    border:3px solid orange;
+    border:3px solid rgb(105, 30, 174);
     padding: 20px;
     margin: 10px;
    background:  #a0a0a0;
@@ -75,7 +75,7 @@ body {
     padding: 10px; 
     box-sizing: border-box; /* Padding ile genişlik hesaplamasını doğru yapar */
     background-color:  #a0a0a0; /* Arka plan rengi (isteğe bağlı) */
-    border: 2px solid orange; /* İnce bir çerçeve (isteğe bağlı) */
+    border: 2px solid rgb(105, 30, 174); /* İnce bir çerçeve (isteğe bağlı) */
     display: flex;
     gap: 10px; 
    
@@ -109,6 +109,6 @@ body {
     color: #ffffff;          /* Yazı rengini belirle */
     transition: background-color 0.3s, color 0.3s; /* Geçiş animasyonu */
   }
-
+  
   
  
