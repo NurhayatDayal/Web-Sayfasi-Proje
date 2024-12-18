@@ -86,12 +86,12 @@ body {
     width: auto;
     height: auto;}
 
-.card{
+/*.card{
     width: 250px;
-    height: 100px;
+   max-height: 750px;
     flex: 1; /* Kartlar eşit genişlikte olur */
-     /* Kart genişliği */
-}
+     /* Kart genişliği
+}  */
 .inner-box .container {
     padding: 0; /* Kenar boşluklarını sıfırla */
     margin: 0; /* Varsayılan margin'i sıfırla */
