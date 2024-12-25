@@ -72,20 +72,15 @@ hr:first-of-type {
           </button>
           <div class="collapse navbar-collapse navbar2" id="navbarCollapse">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              
               <li class="nav-item">
-                <a class="navbar-brand" href="#"><b>Hikayeler</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand" href="hikayeEkle.html"><b>Hikaye Ekle</b></a>
+                <a class="navbar-brand" href="hikayeEkle.html"><b>Hikayeni Ekle</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               </li>
               <li class="nav-item">
-                <a class="navbar-brand " href="#"><b>Giriş</b></a>
+                <a class="navbar-brand " id="openPopup" href="#"><b>Giriş</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -164,7 +159,64 @@ hr:first-of-type {
       
 
 
-
+        <div class="modal fade" id="girisModal" tabindex="-1" aria-labelledby="girisModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <!-- Form içeriği burada -->
+                      <form>
+                          <h1 class="h3 mb-3 fw-normal">Giriş</h1>
+      
+                          <div class="form-floating">
+                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                              <label for="floatingInput">Email adres</label>
+                          </div>
+                          <div class="form-floating">
+                              <input type="password" class="form-control" id="floatingPassword" placeholder="Şifre">
+                              <label for="floatingPassword">Şifre</label>
+                          </div>
+      
+                          <div class="form-check text-start my-3">
+                              <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                              <label class="form-check-label" for="flexCheckDefault">
+                                  Beni Hatırla
+                              </label>
+                          </div>
+                          <button class="btn w-100 py-2" type="submit">Giriş</button>
+                      </form>
+                  </div>
+              </div>
+        
+        <script>
+          // Pop-up açma fonksiyonu
+          // document.getElementById('openPopup').addEventListener('click', function () {
+          //     const popupWidth = 400;
+          //     const popupHeight = 500;
+      
+          //     // Pencerenin ortasına konumlandırmak için hesaplama
+          //     const left = (screen.width - popupWidth) / 2;
+          //     const top = (screen.height - popupHeight) / 2;
+      
+          //     // Yeni pencereyi aç
+          //     window.open(
+          //         'giris.html', // Form sayfasının yolu
+          //         'popupForm', // Pencere adı
+          //         `width=${popupWidth},height=${popupHeight},top=${top},left=${left},resizable=no,scrollbars=yes`
+          //     );
+              
+          // }); 
+      
+          
+          document.getElementById('openPopup').addEventListener('click', function () {
+                  var myModal = new bootstrap.Modal(document.getElementById('girisModal'));
+                  myModal.show(); // Modal'ı göster
+              });
+         
+      </script>
     
 
 

@@ -110,5 +110,22 @@ body {
     transition: background-color 0.3s, color 0.3s; /* Geçiş animasyonu */
   }
   
-  
+  .equal-space {
+    display: flex;
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk sağlar */
+    padding: 0 20px; /* Sağdan ve soldan boşluk ekler */
+    margin: 0; /* Varsayılan p boşluklarını sıfırlar */
+}
+
+.equal-space .left-text, 
+.equal-space .right-text {
+    flex: 1; /* Elemanların genişliklerini eşit yapar */
+    text-align: center; /* Ortalar */
+    color:rgb(105, 30, 174);
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+
  
